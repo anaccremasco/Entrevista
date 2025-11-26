@@ -102,3 +102,58 @@ footer a:hover{
    color: aliceblue;
    transition: transform 0.5s ease;
 }
+
+/* página sobre */
+
+.psicologia {
+    border-radius: 20px;
+    width: 80rem;
+    height: 20rem;
+    margin: 5rem;
+}
+
+.titulo-apresentacao {
+    display: flex;
+    text-align: center;
+    color: #155177;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao {
+    background-image: linear-gradient(   #9df7ff,#bafcff, #ffffff);
+    width: 500px;
+    margin: 0 auto;
+    border: 5px solid #15757789;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: #155177;
+    text-align: center;
+}
+
+/* página entrevista */
+
+.container-entrevista {
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #155177;
+    text-align: center;
+}
+
+.perguntas {
+    background-image: linear-gradient(   #9df7ff,#bafcff, #ffffff);
+    width: 50rem;
+    margin: 0 auto;
+    border: 5px solid #15757789;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color: #155177;
+}
+
+.perguntas:hover{
+    transition: all 0.3s ease;
+    background-image: linear-gradient(   #69a0dbc7,#429bc1, #356fa9);
+    color: #fdffff;
+}
